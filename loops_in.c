@@ -21,5 +21,13 @@ i=0;
 		printf("%d\n",i);
 		i=i+1;
 	}
+
+	
+//  for loop
+int j;
+for (j=0;j<4;j++){
+	printf("%d\n",j);
+	
+}
 return 0;
 }
