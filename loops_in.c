@@ -23,7 +23,26 @@ i=0;
 	}
 
 	
-//  for loop
+ /*for loop
+	syntax for for loop
+	for(expression1;expression2;expression2)
+	
+	expression1 represents the initialization of the loop variable
+	we can initialize more than one variable in expression1 
+	expression1 is optional
+
+	
+	expression2
+	it is a conditional expression
+	it can have more than one condition.however the loop will iterate unitl the last condition become fasle
+	it is optional
+
+	expression3
+	expression3 is used to update the loop variable 
+	it is a optional
+	{
+	code to be run
+	}*/
 int j;
 for (j=0;j<4;j++){
 	printf("%d\n",j);
