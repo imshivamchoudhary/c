@@ -1,4 +1,7 @@
 #include <stdio.h>
+   int sum(int a,int b){
+        return a+b;
+    } 
 int main(){
 
     // function
@@ -19,9 +22,19 @@ int main(){
     A fucntion is declared to tell a compiler about its existance
     a function is define to get some task done 
     a function is called in order to be used
+
+    types of function
+    1 library
+    2 user defined
+    
     
     
     */
 
-    printf("hello world");
+   int a=4;
+   int b=23;
+int c =sum(a,b);
+    printf("hello world\n");
+    printf("%d",c);
+    return 0;
 }
