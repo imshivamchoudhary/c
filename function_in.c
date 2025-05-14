@@ -1,7 +1,19 @@
 #include <stdio.h>
    int sum(int a,int b){
         return a+b;
-    } 
+     }
+void printstar(int n){
+    for(int i=0;i<n;i++){
+        printf("% c",'*');
+    }
+}
+
+int takenumber(){
+    int i;
+    printf("enter a number ");
+    scanf("%d",&i);
+    return i;
+}
 int main(){
 
     // function
@@ -34,7 +46,11 @@ int main(){
    int a=4;
    int b=23;
 int c =sum(a,b);
+
+int d=takenumber();
+printf("the entered number is %d\n",d);
     printf("hello world\n");
-    printf("%d",c);
+    printf("%d\n",c);
+    printstar(10);
     return 0;
 }
