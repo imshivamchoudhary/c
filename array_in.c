@@ -18,10 +18,9 @@ It is used to represent multiple data items of same type by using only single na
 
 #include<stdio.h>
 int main(){
+    int array[4];
+    array[0]=23;
+printf("%d",array[0]);
 
-
-
-
-    
     return 0;
 }
