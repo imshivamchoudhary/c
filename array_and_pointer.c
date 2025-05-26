@@ -9,6 +9,12 @@ There are four arithmetic operator that can be used in pointer
 
 */
 
+
+/*
+arrays and pointers
+however , arr,by itself without any index subscripting can be assigned to an integer pointer 
+*/
+
 #include <stdio.h>
 int main()
 {
