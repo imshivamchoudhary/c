@@ -17,7 +17,7 @@ however , arr,by itself without any index subscripting can be assigned to an int
 
 #include <stdio.h>
 int main()
-{
+{ 
     int a =34;
     int* ptra =&a;
     printf("the adress of a is %d\n",ptra);
