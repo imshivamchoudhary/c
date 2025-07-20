@@ -1,4 +1,15 @@
 #include <stdio.h>
+
+void name(char str[]){
+    int i;
+    i=0;
+    while (str[i]!='\0')
+    {
+        printf("%c",str[i]);
+        i++;
+    }
+    
+}
 int main()
 {
     // Is string a data type in c ? 
@@ -13,11 +24,13 @@ int main()
     // We need an extra character ('\0' or null character ) to tell compiler that the strings end here.
     
 
+    char str[]={'S','h','i','v','a','m','\0'};
+    name(str);
     // Taking String input from the user.
-     char str[10];
-     gets(str); //Input the string 
-    printf("%s\n",str);
-    puts(str); 
+    //  char str[10];
+    //  gets(str); //Input the string 
+    // printf("%s\n",str);
+    // puts(str); 
     
     return 0;
 }
